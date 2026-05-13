@@ -69,7 +69,7 @@ if "initialized" not in st.session_state:
 
 # --- 4. UI TAMPILAN ---
 st.title("📂 Sistem Pengarsipan Digital")
-st.info("Data disimpan dalam format JSON. Aman dari PicklingError.")
+st.info("Create By Yusacheng.")
 
 # Sidebar untuk Reset
 with st.sidebar:
