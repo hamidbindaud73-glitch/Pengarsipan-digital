@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import os
 
-# --- 1. LOGIKA STRUKTUR DATA (Versi Ringan untuk JSON) ---
+# --- 1. LOGIKA STRUKTUR DATA  ---
 class BSTLogic:
     @staticmethod
     def insert(tree, user_id, name):
@@ -31,7 +31,7 @@ class BSTLogic:
                 ret += BSTLogic.visualize(tree.get("right"), level + 1, "R── ")
         return ret
 
-# --- 2. FUNGSI SAVE & LOAD (Ganti Pickle ke JSON agar aman) ---
+# --- 2. FUNGSI SAVE & LOAD  ---
 DB_FILE = "database_asrip.json"
 
 def save_db():
