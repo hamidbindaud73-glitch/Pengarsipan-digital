@@ -128,10 +128,9 @@ with tab2:
             st.warning("Tidak ada data dalam rentang tersebut di Storage Utama.")
 
 with tab3:
-    st.subheader("Bentuk Pohon Saat Ini")
-    
-    # Visualisasi Sederhana menggunakan Graphviz
-    dot = graphviz.Digraph()
+    st.subheader("Struktur Data (Teks)")
+    st.write("BST Count:", st.session_state.bst.count)
+    st.write("Storage Data:", st.session_state.storage)
     
     # Render BST jika ada
     if st.session_state.bst.root:
