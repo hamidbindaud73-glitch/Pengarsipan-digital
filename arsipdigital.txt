@@ -1,7 +1,2 @@
 streamlit
-pandas
-plotly
-xlsxwriter
-fpdf
-json
 graphviz
